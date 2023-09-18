@@ -17,10 +17,10 @@ if not os.path.isfile(csv_file_path):
 # Load the Hugging Face dataset by name
 dataset = load_dataset("jacob-hugging-face/job-descriptions")
 
-# Access the dataset's "train" split (you can change to "test" or "validation" if needed)
+# Access the dataset's "train" split 
 data = dataset["train"]
 
-# Extract only 10-15 job descriptions
+# Extracting only 15 job descriptions
 job_descriptions = data["job_description"][:15]
 
 # Create a DataFrame with the job descriptions
