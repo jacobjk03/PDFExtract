@@ -18,7 +18,7 @@ This project is designed to extract job descriptions from a dataset and match th
 
 1. Clone the repository.
 2. Install the required packages.
-3. Run the matching script: `python matching_script.py`.
+3. Run the three python scripts.
 4. View the results in the `results/` directory.
 
 ## Project Structure
